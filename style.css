@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Play', sans-serif;
   background: rgba(242, 242, 242, .6);
   margin: 0;
 }
@@ -10,7 +10,7 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #31b0d5;
+  background-color: rgb(138, 141, 141);
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -35,7 +35,7 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #31b0d5; /*background color to blue*/
+  background: #65AFFF; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
 
   display: flex;
@@ -136,8 +136,8 @@ body {
 
 h2 {
   font-weight: 200;
-  font-size: 2rem;
-  color: #31b0d5;
+  font-size: 2.5rem;
+  color: #65AFFF;
   text-transform: uppercase;
   text-align: center;
 }
@@ -173,7 +173,7 @@ h2 {
 h4 {
   margin: 0;
   font-weight: 400;
-  color: grey;
+  color: #65AFFF;
 }
 
 .job-title {
@@ -221,7 +221,7 @@ h4 {
   margin: 7px;
   padding: 5px 10px;
   color: white;
-  background: #31b0d5;
+  background: rgb(138, 141, 141);
   list-style: none;
   cursor: default;
   font-size: 1.2em;
@@ -229,7 +229,7 @@ h4 {
 
 /*CONTACT*/
 .blue {
-  background: #3498db;
+  background: #65AFFF;
   text-align: center;
 }
 
@@ -245,7 +245,7 @@ h4 {
   border-radius: 4px;
   border: none;
   margin-bottom: 10px;
-  background: #1d6fa5;
+  background: #65AFFF;
   color: #fff;
   -webkit-transition: .5s ease all;
   transition: .5s ease all;
@@ -263,7 +263,7 @@ h4 {
   border-radius: 4px;
   padding: 5px 10px;
   border: none;
-  color: #3498db;
+  color: #65AFFF;
   font-weight: 700;
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   -webkit-transition: .5s ease all;
@@ -272,4 +272,20 @@ h4 {
 
 .white-text {
   color: white;
+  font-size: 2.5rem;
+}
+
+.white-text2 {
+  color: white;
+  font-size: 20px
+}
+
+.yelp-img {
+  width: 400px;
+  height: 300px;
+}
+
+.cookbook-project {
+  width: 400px;
+  height: 300px;
 }
